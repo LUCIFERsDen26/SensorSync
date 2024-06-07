@@ -1,0 +1,49 @@
+1715775637: mosquitto version 2.0.18 starting
+1715775637: Config loaded from /mosquitto/config/mosquitto.conf.
+1715775637: Error: Unable to open pwfile "./password".
+1715775637: Error opening password file "./password".
+1715775727: mosquitto version 2.0.18 starting
+1715775727: Config loaded from /mosquitto/config/mosquitto.conf.
+1715775727: Error: Unable to open pwfile "/password".
+1715775727: Error opening password file "/password".
+1715775810: mosquitto version 2.0.18 starting
+1715775810: Config loaded from /mosquitto/config/mosquitto.conf.
+1715775810: Warning: File /mosquitto/config/password has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/password`.
+1715775810: Opening ipv4 listen socket on port 3000.
+1715775810: Opening ipv6 listen socket on port 3000.
+1715775810: mosquitto version 2.0.18 running
+1715775862: mosquitto version 2.0.18 terminating
+1715775862: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1715775929: mosquitto version 2.0.18 starting
+1715775929: Config loaded from /mosquitto/config/mosquitto.conf.
+1715775929: Opening ipv4 listen socket on port 3000.
+1715775929: Opening ipv6 listen socket on port 3000.
+1715775929: mosquitto version 2.0.18 running
+1715775963: mosquitto version 2.0.18 terminating
+1715775963: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1715775977: mosquitto version 2.0.18 starting
+1715775977: Config loaded from /mosquitto/config/mosquitto.conf.
+1715775977: Opening ipv4 listen socket on port 3000.
+1715775977: Opening ipv6 listen socket on port 3000.
+1715775977: mosquitto version 2.0.18 running
+1715776038: New connection from 172.17.0.1:58484 on port 3000.
+1715776038: Client auto-95B160A6-415C-509C-3931-4D4FE46FF53F disconnected, not authorised.
+1715776053: New connection from 172.17.0.1:39982 on port 3000.
+1715776053: New client connected from 172.17.0.1:39982 as auto-12590972-B19E-0805-20C5-E047DEDAB20F (p2, c1, k60, u'username').
+1715776113: New connection from 172.17.0.1:47026 on port 3000.
+1715776113: New client connected from 172.17.0.1:47026 as auto-B74B7C19-045C-E684-6C77-D8693048C56F (p2, c1, k60, u'username').
+1715776113: Client auto-B74B7C19-045C-E684-6C77-D8693048C56F disconnected.
+1715776134: New connection from 172.17.0.1:38482 on port 3000.
+1715776134: New client connected from 172.17.0.1:38482 as auto-0090BA71-DE60-C387-F58F-35562F3E45AA (p2, c1, k60, u'username').
+1715776134: Client auto-0090BA71-DE60-C387-F58F-35562F3E45AA disconnected.
+1715776135: New connection from 172.17.0.1:38488 on port 3000.
+1715776135: New client connected from 172.17.0.1:38488 as auto-DFFE9EFB-0DE0-9FD7-00EE-5966DBC98D42 (p2, c1, k60, u'username').
+1715776135: Client auto-DFFE9EFB-0DE0-9FD7-00EE-5966DBC98D42 disconnected.
+1715776141: New connection from 172.17.0.1:47990 on port 3000.
+1715776141: New client connected from 172.17.0.1:47990 as auto-277522E0-99F9-ECBA-35DB-6E096CF110DF (p2, c1, k60, u'username').
+1715776141: Client auto-277522E0-99F9-ECBA-35DB-6E096CF110DF disconnected.
+1715776148: Client auto-12590972-B19E-0805-20C5-E047DEDAB20F closed its connection.
+1715777457: Reloading config.
+1715777457: mosquitto version 2.0.18 terminating
+1715777457: Saving in-memory database to /mosquitto/data//mosquitto.db.

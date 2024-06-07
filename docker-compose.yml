@@ -1,0 +1,20 @@
+version: '3.8'  # Replace with the desired version if needed
+
+services:
+
+	middleware:
+    container_name: SensorSync_MiddleWare
+    build: ./middleware  # Build the image from the current directory's "middleware" folder
+    command: ["python", "mqtt-json-docker.py"]  # Set the command to execute the script
+    ports:
+      - "8080:8080"  # Map container port 8080 to host port 8080 (adjust as needed)
+    volumes:
+      - ./middleware:/app  # Mount the current directory's "middleware" folder as "/app" inside the container
+
+  sensordb:
+    image: mysql
+    container_name: SensorSync_DB
+    environment:
+      MYSQL_ROOT_PASSWORD: SensorSync
+    ports:
+      - "3307:3306"
